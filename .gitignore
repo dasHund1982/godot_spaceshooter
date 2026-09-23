@@ -1,0 +1,21 @@
+# ── Godot 4 ───────────────────────────────────────────────
+# Import- und Shader-Cache, wird bei jedem Oeffnen neu erzeugt
+.godot/
+/android/
+
+# Export-Ergebnisse
+/builds/
+/export/
+*.translation
+
+# Export-Presets enthalten ggf. Pfade zu Keystores und Signaturen
+export_presets.cfg
+
+# ── Betriebssystem ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ────────────────────────────────────────────────
+.vscode/
+*.swp
